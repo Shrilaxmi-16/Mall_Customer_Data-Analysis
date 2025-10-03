@@ -50,10 +50,10 @@ Mall_Customers.csv contains details of 200 customers, including:
 ## Results
 - Optimal number of clusters (K=5) identified via Elbow Method.
 - Clusters show distinct groups such as:
-- Low income, low spenders
-- High income, high spenders
-- Average income, moderate spenders
-- Young high spenders
+    - Low income, low spenders
+    - High income, high spenders
+    - Average income, moderate spenders
+    - Young high spenders
 
 Older low spenders
 ## Tools & Libraries
