@@ -5,11 +5,9 @@
 ![Seaborn](https://img.shields.io/badge/Seaborn-0.12-purple)
 
 ## Project Overview
-This project applies K-Means Clustering to the Mall Customers dataset to identify distinct groups of customers based on Age, Annual Income, and Spending Score.
-The goal is to segment customers for targeted marketing strategies.
+This project applies K-Means Clustering on the Mall Customers dataset to segment customers based on Age, Annual Income, and Spending Score. The goal is to uncover distinct customer groups to enable data-driven targeted marketing strategies. Visualizations and clustering evaluation methods are used to interpret and validate the results.
 
 ## Mall Customer Dataset 
-
 **Dataset Source:** [Mall Customer Dataset](https://www.kaggle.com/datasets/vjchoudhary7/customer-segmentation-tutorial-in-python)
 Mall_Customers.csv contains details of 200 customers, including:
 
@@ -54,8 +52,7 @@ Mall_Customers.csv contains details of 200 customers, including:
     - High income, high spenders
     - Average income, moderate spenders
     - Young high spenders
-
-Older low spenders
+      
 ## Tools & Libraries
 - **Python**
 - **Pandas** – Data manipulation and preprocessing
@@ -70,7 +67,7 @@ Older low spenders
 
 ## Conclusion
 
-This project demonstrates how a Logestic Regression and Random Forest Classifier can be effectively used to perform feature importance analysis. Through exploratory data analysis, strong patterns and correlations between features were identified, and categorical variables were encoded for modeling. The Random Forest model ranked features based on their influence on predictions, providing valuable insights for feature selection and dimensionality reduction. Such analysis not only improves model performance but also enhances interpretability, enabling data-driven decision-making. This approach can be applied to a wide range of datasets to uncover the most impactful features and streamline predictive modeling workflows.
+K-Means clustering effectively segmented mall customers into five distinct groups based on Age, Annual Income, and Spending Score. The analysis uncovered meaningful patterns, enabling targeted marketing strategies for each group. This demonstrates the power of unsupervised learning in deriving actionable business insights from customer data.
 
 ## Author
 Shrilaxmi Gidd
